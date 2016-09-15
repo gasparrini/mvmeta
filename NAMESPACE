@@ -1,0 +1,83 @@
+#################
+# EXPORTED
+#################
+#
+export(
+  mvmeta, mvmeta.fit,
+  mvmeta.fixed, mvmeta.ml, mvmeta.reml, mvmeta.mm, mvmeta.vc,
+  mvmetaSim,
+  mvmeta.control,
+  inputna,
+  inputcov,
+  summary.mvmeta,
+  print.mvmeta, print.summary.mvmeta,
+  predict.mvmeta, 
+  blup, blup.mvmeta,
+  simulate.mvmeta,
+  qtest, qtest.mvmeta, print.qtest.mvmeta,
+  logLik.mvmeta,
+  coef.mvmeta, vcov.mvmeta,
+  model.frame.mvmeta, model.matrix.mvmeta,
+  na.omit.data.frame.mvmeta, na.exclude.data.frame.mvmeta,
+  vechMat, xpndMat
+)
+#
+#################
+# NOT EXPORTED
+#################
+#
+# extractAIC.mvmeta, nobs.mvmeta
+# mlprof.fn, mlprof.gr, remlprof.fn, remlprof.gr
+# iter.igls
+#
+#################
+# NOT USED
+#################
+#
+# mlfull.fn, remlfull.fn
+#
+#################
+# INTERNAL
+#################
+#
+# .onAttach
+# glsfit
+# mkS
+# inputScor
+# initpar
+# checkPD
+# par2Psi
+# mvsim
+# gradchol.ml, gradchol.reml
+# sumlist
+# fbtr
+#
+#################
+# IMPORTED
+#################
+#
+import(stats, graphics, grDevices)
+importFrom(utils, packageDescription)
+importFrom(utils, modifyList)
+#
+#################
+# METHODS
+#################
+#
+S3method(blup, mvmeta)
+S3method(coef, mvmeta)
+S3method(logLik, mvmeta)
+S3method(model.frame, mvmeta)
+S3method(model.matrix, mvmeta)
+S3method(nobs, mvmeta)
+S3method(predict, mvmeta)
+S3method(simulate, mvmeta)
+S3method(print, mvmeta)
+S3method(qtest, mvmeta)
+S3method(summary, mvmeta)
+S3method(vcov, mvmeta)
+#
+S3method(print, summary.mvmeta)
+S3method(print, qtest.mvmeta)
+S3method(na.omit, data.frame.mvmeta)
+S3method(na.exclude, data.frame.mvmeta)

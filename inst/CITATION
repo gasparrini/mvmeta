@@ -1,0 +1,17 @@
+citHeader("To cite the R package 'mvmeta' in publications use:")
+
+citEntry(
+  entry = "Article",
+ 	author = personList(as.person("A. Gasparrini"),as.person("B. Armstrong"),as.person("M. G. Kenward")),
+	title = "Multivariate meta-analysis for non-linear and other multi-parameter associations",
+ 	journal = "Statistics in Medicine",
+	volume = "31",
+	number = "29",
+	pages= "3821--3839",
+	year = "2012",
+	textVersion=paste("Gasparrini A., Armstrong, B., Kenward M. G. (2012).",
+    "Multivariate meta-analysis for non-linear and other multi-parameter associations.",
+    "Statistics in Medicine. 31(29):3821-3839.")
+)
+
+citFooter("A BibTeX entry for LaTeX users is returned by: toBibtex(citation('mvmeta'))")
