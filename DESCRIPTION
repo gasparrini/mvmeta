@@ -1,8 +1,8 @@
 Package: mvmeta
 Type: Package
 Title: Multivariate and Univariate Meta-Analysis and Meta-Regression
-Version: 0.4.9
-Date: 2016-05-24
+Version: 0.4.10
+Date: 2018-03-06
 Author: Antonio Gasparrini
 Maintainer: Antonio Gasparrini <antonio.gasparrini@lshtm.ac.uk>
 Depends: R (>= 2.13.0)

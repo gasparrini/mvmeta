@@ -1,4 +1,15 @@
 ==============================================================================
+Changes in mvmeta 0.4.10 (06 March 2018)
+=====================================
+
+Minor changes
+-------------
+
+    o Two useless lines of code excluded from methods na.omit() and na.exclude()
+      for objects data.frame.mvmeta. The bug was identified by the CRAN (Kurt
+      Hornik).
+
+==============================================================================
 Changes in mvmeta 0.4.9 (24 May 2016)
 =====================================
 

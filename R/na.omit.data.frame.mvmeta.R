@@ -26,8 +26,6 @@ function (object, ...) {
 #
   # THEN IN RESPONSE (TO TRUE ONLY IF ALL ARE MISSING)
   if(!is.null(y)) {
-    vars <- vars[-1]
-    if (!is.atomic(y)) next
     y <- is.na(y)
     d <- dim(y)
     if (is.null(d)||length(d)!=2L) 
