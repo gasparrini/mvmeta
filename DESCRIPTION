@@ -1,8 +1,8 @@
 Package: mvmeta
 Type: Package
 Title: Multivariate and Univariate Meta-Analysis and Meta-Regression
-Version: 0.4.10
-Date: 2018-03-06
+Version: 0.4.11
+Date: 2018-03-07
 Author: Antonio Gasparrini
 Maintainer: Antonio Gasparrini <antonio.gasparrini@lshtm.ac.uk>
 Depends: R (>= 2.13.0)
@@ -12,4 +12,3 @@ Description: Collection of functions to perform fixed and random-effects multiva
 URL: http://www.ag-myresearch.com/package-mvmeta
 License: GPL (>=2)
 LazyData: yes
-
