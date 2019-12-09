@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2012-2014
+### R routines for the R package mvmeta (c)
 #
 blup.mvmeta <-
 function(object, se=FALSE, pi=FALSE, vcov=FALSE, pi.level=0.95,

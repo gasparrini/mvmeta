@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2012-2014
+### R routines for the R package mvmeta (c)
 #
 gradchol.reml <-
 function(par,U,invtXWXtot,ind1,ind2,Xlist,invSigmalist,reslist,nalist,k,m) {

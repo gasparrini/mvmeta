@@ -21,6 +21,12 @@ This method function returns the log-likelihood for fitted univariate or multiva
 A numeric scalar of class \code{"logLik"} with attributes, providing the (restricted) log likelihood of the model. Attributes correspond to the component \code{df} of \code{mvmeta} objects, namely the following scalars: \code{nall} (number of observations used for estimation, excluding missing values), \code{nobs} (equal to \code{nall}, minus the number of fixed-effects coefficients for REML models, \code{fixed} (number of estimated fixed-effects coefficients), \code{random} (number of estimated (co)variance terms).
 }
 
+\references{
+Sera F, Armstrong B, Blangiardo M, Gasparrini A (2019). An extended mixed-effects framework for meta-analysis.\emph{Statistics in Medicine}. 2019;38(29):5429-5444. [Freely available \href{http://www.ag-myresearch.com/2019_sera_statmed.html}{\bold{here}}].
+
+Gasparrini A, Armstrong B, Kenward MG (2012). Multivariate meta-analysis for non-linear and other multi-parameter associations. \emph{Statistics in Medicine}. \bold{31}(29):3821--3839. [Freely available \href{http://www.ag-myresearch.com/2012_gasparrini_statmed.html}{\bold{here}}].
+}
+
 \author{Antonio Gasparrini, \email{antonio.gasparrini@lshtm.ac.uk}}
 
 \note{

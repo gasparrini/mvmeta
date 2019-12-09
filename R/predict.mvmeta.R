@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2012-2014
+### R routines for the R package mvmeta (c)
 #
 predict.mvmeta <-
 function(object, newdata, se=FALSE, ci=FALSE, vcov=FALSE,

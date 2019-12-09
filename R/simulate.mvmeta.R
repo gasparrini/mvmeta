@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2014
+### R routines for the R package mvmeta (c)
 #
 simulate.mvmeta <- 
 function(object, nsim=1, seed=NULL, ...) {

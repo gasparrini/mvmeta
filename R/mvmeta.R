@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2012-2014
+### R routines for the R package mvmeta (c)
 #
 mvmeta <-
 function(formula, S, data, subset, method="reml", bscov="unstr", model=TRUE,
@@ -17,10 +17,10 @@ function(formula, S, data, subset, method="reml", bscov="unstr", model=TRUE,
   mcall[[1L]] <- as.name("model.frame")
 #
 #  # CREATE FORMULA IF NOT PROVIDED (FOR SIMPLE META-ANALYSIS)
-  if(class(eval(mcall[[mn[1]]],
-    if(missing(data)) parent.frame() else data))!="formula") {
-    formula <- as.formula(paste(deparse(substitute(formula),
-      width.cutoff=499L),"~ 1"))
+  if (missing(data)) data <- parent.frame()
+  if(!inherits(eval(substitute(formula),data),"formula")) {
+    formula <- as.formula(paste(deparse(substitute(formula),width.cutoff=499L),
+      "~ 1"),env=parent.frame())
     environment(formula) <- parent.frame()
     call[[mn[1]]] <- mcall[[mn[1]]] <- formula
   }

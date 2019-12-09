@@ -42,6 +42,10 @@ The functions simulate the responses for each study separately from a marginal m
 If \code{nsim=1}, a matrix or vector of simulated \eqn{k} outcomes for the \eqn{m} studies. If more simulation sets are required (\code{nsim} higher than 1), a list of matrices or vectors.
 }
 
+\references{
+Sera F, Armstrong B, Blangiardo M, Gasparrini A (2019). An extended mixed-effects framework for meta-analysis.\emph{Statistics in Medicine}. 2019;38(29):5429-5444. [Freely available \href{http://www.ag-myresearch.com/2019_sera_statmed.html}{\bold{here}}].
+}
+
 \author{Antonio Gasparrini, \email{antonio.gasparrini@lshtm.ac.uk}}
 
 \note{

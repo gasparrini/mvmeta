@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2012-2014
+### R routines for the R package mvmeta (c)
 #
 .onAttach <-
 function(lib, pkg) {
@@ -11,5 +11,3 @@ function(lib, pkg) {
     ". For an overview type: help('mvmeta-package').",sep="")
   packageStartupMessage(attachmsg, domain = NULL, appendLF = TRUE)
 }
-
-#

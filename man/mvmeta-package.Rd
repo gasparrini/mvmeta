@@ -8,6 +8,8 @@ Multivariate and Univariate Meta-Analysis and Meta-Regression
 
 \description{
 The package \pkg{mvmeta} consists of a collection of functions to perform fixed and random-effects multivariate and univariate meta-analysis and meta-regression in \R.
+
+It is now superseded by the package \pkg{mixmeta}, which offers a unified mixed-effects framework to perform various meta-analytical models in \R, including non-standard extensions such as multivariate, multilevel, longitudinal, and dose-response models. The package \pkg{mvmeta} will be still maintained, but its development is now discontinued. Improvements and further extensions will be implemented in \pkg{mixmeta}. Users are suggested to switch to the latter.
 }
 
 \section{Modelling framework}{
@@ -83,6 +85,8 @@ Antonio Gasparrini, \email{antonio.gasparrini@lshtm.ac.uk}
 }
 
 \references{
+Sera F, Armstrong B, Blangiardo M, Gasparrini A (2019). An extended mixed-effects framework for meta-analysis.\emph{Statistics in Medicine}. 2019;38(29):5429-5444. [Freely available \href{http://www.ag-myresearch.com/2019_sera_statmed.html}{\bold{here}}].
+
 Gasparrini A, Armstrong B, Kenward MG (2012). Multivariate meta-analysis for non-linear and other multi-parameter associations. \emph{Statistics in Medicine}. \bold{31}(29):3821--3839. [Freely available \href{http://www.ag-myresearch.com/2012_gasparrini_statmed.html}{\bold{here}}].
 
 White IR (2009). Multivariate random-effects meta-analysis. \emph{Stata Journal}. \bold{9}(1):40--56.

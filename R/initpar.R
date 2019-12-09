@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2014
+### R routines for the R package mvmeta (c)
 #
 initpar <- 
 function(Xlist, ylist, Slist, nalist, k, m, p, bscov, control) {

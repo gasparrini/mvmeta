@@ -36,6 +36,8 @@ Lu G, Ades AE (2006). Assessing evidence inconsistency in mixed treatment compar
 Higgins JPT, Jackson D, Barrett JK et al (2012). Consistency and inconsistency in network meta-analysis: concepts and models for multi-arm studies. \emph{Research Synthesis Methods}. \bold{3}(2):98--110.
 
 White IR (2011). Multivariate random-effects meta-regression. \emph{The Stata Journal}. \bold{11}:255--270.
+
+Sera F, Armstrong B, Blangiardo M, Gasparrini A (2019). An extended mixed-effects framework for meta-analysis.\emph{Statistics in Medicine}. 2019;38(29):5429-5444. [Freely available \href{http://www.ag-myresearch.com/2019_sera_statmed.html}{\bold{here}}].
 }
 
 \examples{

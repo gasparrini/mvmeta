@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2014
+### R routines for the R package mvmeta (c)
 #
 checkPD <- 
 function(mat, k, label="matrix") {

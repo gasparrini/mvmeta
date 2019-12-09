@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2014
+### R routines for the R package mvmeta (c)
 #
 par2Psi <- 
 function(par, k, bscov, control) {

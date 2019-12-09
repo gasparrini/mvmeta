@@ -1,5 +1,5 @@
 ###
-### R routines for the R package mvmeta (c) Antonio Gasparrini 2013-2014
+### R routines for the R package mvmeta (c)
 #
 mvmetaSim <- 
 function(y, S, Psi, sd, cor, nsim=1, seed=NULL, posdeftol) {
