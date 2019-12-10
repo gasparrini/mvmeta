@@ -1,6 +1,18 @@
 -----------------------------------
 
-### Changes in mvmeta 1.0.2 (12 Dec 2019)
+### Changes in mvmeta 1.0.3 (10 Dec 2019)
+
+#### Minor changes
+
+    * Some functions imported from mixmeta are now exported in the namespace of
+      mvmeta directly. This prevents issues with reverse dependencies with other
+      packages calling mvmeta.
+      
+    * The package does not attach mixmeta anymore when loaded.
+
+-----------------------------------
+
+### Changes in mvmeta 1.0.2 (09 Dec 2019)
 
 #### Major changes
 

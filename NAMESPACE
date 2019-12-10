@@ -7,16 +7,19 @@ export(
   mvmeta.fixed, mvmeta.ml, mvmeta.reml, mvmeta.mm, mvmeta.vc,
   mvmetaSim,
   mvmeta.control,
+  inputna,
+  inputcov,
   summary.mvmeta,
   print.mvmeta, print.summary.mvmeta,
   predict.mvmeta, 
-  blup.mvmeta,
+  blup, blup.mvmeta,
   simulate.mvmeta,
-  qtest.mvmeta, print.qtest.mvmeta,
+  qtest, qtest.mvmeta, print.qtest.mvmeta,
   logLik.mvmeta,
   coef.mvmeta, vcov.mvmeta,
   model.frame.mvmeta, model.matrix.mvmeta,
-  na.omit.data.frame.mvmeta, na.exclude.data.frame.mvmeta
+  na.omit.data.frame.mvmeta, na.exclude.data.frame.mvmeta,
+  vechMat, xpndMat
 )
 #
 #################
